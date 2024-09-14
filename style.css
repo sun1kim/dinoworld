@@ -7,14 +7,31 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-
+h1 {
+    text-align: center;
+    background-color: green ;
+}
 
 
 /* Dark mode */
 .dark-mode {
     --background-color: #2b312c;
     --text-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 
 }
+

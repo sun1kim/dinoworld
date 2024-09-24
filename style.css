@@ -207,7 +207,10 @@ div {
 .footer-three {
     background-color: rgb(115, 114, 114);
     border: 1px solid white;
-    flex: initial; 
     width:300px;
+}
 
+
+.footer-two {
+    flex: 2 1 auto;
 }
